@@ -12,8 +12,10 @@ My mandatory assignments for IDATG2208, written as Jupyter notebooks.
 
 ## Run
 
+Requires **Python 3.12** (TensorFlow does not support 3.14 yet).
+
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn ucimlrepo tensorflow tensorflow-datasets jupyter
+pip install numpy pandas matplotlib seaborn scikit-learn ucimlrepo xlrd tensorflow tensorflow-datasets importlib_resources jupyter
 jupyter notebook
 ```
 
